@@ -4,7 +4,7 @@ import RightSection from './RightSection'
 
 const Section1 = () => {
   return (
-    <div className='flex justify-center items-center h-[75vh] gap-4'>
+    <div className='flex lg:flex-row flex-col-reverse justify-center items-center h-[75vh] gap-4 px-6'>
       <LeftSection/>
       <RightSection/>
     </div>

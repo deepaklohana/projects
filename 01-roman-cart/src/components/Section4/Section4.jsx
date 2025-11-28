@@ -4,8 +4,8 @@ import Section4Right from './Section4Right'
 
 const Section4 = () => {
   return (
-        <div className='bg-[#DDDDDD2E] flex items-center justify-center gap-4 h-[296px] w-full'>
-            <div className='flex items-start'>
+        <div className='bg-[#DDDDDD2E] flex  items-center justify-center  lg:px-[150px] lg:py-20 w-full '>
+            <div className='flex flex-col lg:flex-row  gap-10 text-center lg:text-start p-6'>
                 <Section4Left/>
                 <Section4Right/>
             </div>

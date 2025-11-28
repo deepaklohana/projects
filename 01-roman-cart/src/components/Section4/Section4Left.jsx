@@ -3,7 +3,7 @@ import Section4Heading from './Section4Heading'
 
 const Section4Left = () => {
   return (
-    <div>
+    <div className='max-w-[460px]'>
       <Section4Heading/>
     </div>
   )

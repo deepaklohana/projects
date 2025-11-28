@@ -5,7 +5,7 @@ import HeroBtn from './HeroBtn'
 
 const HeroSection = () => {
   return (
-    <div className=' flex flex-col gap-6'>
+    <div className=' flex flex-col gap-6 text-center lg:text-start'>
       <HeroHeading/>
       <HeroParagraph/>
       <HeroBtn/>

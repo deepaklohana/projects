@@ -8,26 +8,49 @@ import Logo6 from '../../assets/image 810.png'
 
 const LogoBar = () => {
   return (
-    <div className="overflow-hidden py-16 ">
-        
-      <div className="flex animate-scroll justify-around min-w-max">
-        <img src={Logo6} className="grayscale" />
-        <img src={Logo1} className="grayscale" />
-        <img src={Logo2} className="grayscale" />
-        <img src={Logo3} className="grayscale" />
-        <img src={Logo4} className="grayscale" />
-        <img src={Logo5} className="grayscale" />
-
-        {/* Again copy for infinite loop 
-        <img src={Logo6} className="grayscale" />
-        <img src={Logo1} className="grayscale" />
-        <img src={Logo2} className="grayscale" />
-        <img src={Logo3} className="grayscale" />
-        <img src={Logo4} className="grayscale" />
-        <img src={Logo5} className="grayscale" /> */}
-
-        
+    <div className=''>
+      <div class="  flex justify-center items-center">
+  <div class="slider  lg:mb-0 w-full bg-zinc-100 overflow-hidden py-10 lg:p-16 max-h ">
+    <div class="slider-track slider-animation flex gap-16 lg:scale-100 scale-70 ">
+      <div class="slide">
+        <img src={Logo1} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
       </div>
+      <div class="slide">
+        <img src={Logo2} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo3} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo4} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo5} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo6} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo1} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo2} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo3} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo4} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo5} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+      <div class="slide">
+        <img src={Logo6} class="h-16 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-200" />
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   )
 }

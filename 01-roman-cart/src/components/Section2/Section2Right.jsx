@@ -6,7 +6,7 @@ import Section2btn from './Section2btn'
 
 const Section2Right = () => {
   return (
-    <div className='flex flex-col gap-10 w-[558px]'>
+    <div className='flex flex-col gap-10 max-w-[558px] text-center lg:text-start '>
       <Section2Heading/>
       <Section2Paragraph/>
       <Section2btn/>
