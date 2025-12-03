@@ -1,5 +1,5 @@
 {
-  "name": "01-roman-cart",
+  "name": "02-roman-cart-cursor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,14 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^7.1.0",
-    "@fortawesome/react-fontawesome": "^3.1.0",
     "@tailwindcss/vite": "^4.1.17",
-    "lucide": "^0.553.0",
-    "lucide-react": "^0.554.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-router-dom": "^7.9.6",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {

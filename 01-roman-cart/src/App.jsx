@@ -1,33 +1,31 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import Section1 from './components/Section1/Section1'
-import LogoBar from './components/LogoBar/LogoBar'
-import Section2 from './components/Section2/Section2'
-import Section3 from './components/Section3/Section3'
-import Section4 from './components/Section4/Section4'
-import Section5 from './components/Section5/Section5'
-import Section6 from './components/Section6/Section6'
-import Section7 from './components/Section7/Section7'
-import Section8 from './components/Section8/Section8'
 import SubFooter from './components/SubFooter/SubFooter'
 import Footer from './components/Footer/Footer'
+import Home from './components/Home/Home'
+import { Route, Routes } from 'react-router-dom'
+import HowItWorks from './components/HowItWorks/HowItWorks'
+import ProductDemo from './components/ProductDemo/ProductDemo'
+import PricingPlan from './components/PricingPlan/PricingPlan'
+import Resources from './components/Resources/Resources'
 
 const App = () => {
   return (
-    <div className=' bg-[rgba(221,221,221,0.28)]'>
+    <div className='bg-[rgba(221,221,221,0.28)]'>
+      
       <Navbar/>
-      <Section1/>
-      <LogoBar/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Section7/>
-      <Section8/>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/howitworks" element={<HowItWorks />} />
+        <Route path="/productdemo" element={<ProductDemo />} />
+        <Route path="/pricing" element={<PricingPlan />} />
+        <Route path="/resources" element={<Resources />} />
+      </Routes>
+
       <SubFooter/>
       <Footer/>
-      </div>
+    </div>
   )
 }
 
