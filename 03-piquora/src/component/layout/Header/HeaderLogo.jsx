@@ -1,10 +1,9 @@
 import React from 'react'
-import Logo from '../../../assets/logo/piquora.png'
 
-const HeaderLogo = () => {
+const HeaderLogo = ({Img}) => {
   return (
     <div className='max-w-[135px]'>
-      <img src={Logo} alt="" />
+      <img src={Img} alt="" />
     </div>
   )
 }
