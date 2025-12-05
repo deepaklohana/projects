@@ -1,12 +1,10 @@
 import React from 'react'
 
-const CustomIcon = ({icon}) => {
+const CustomIcon = ({icon,className}) => {
   return (
-    <div>
-      <button>
+      <button className={`${className}`}>
         {icon}
       </button>
-    </div>
   )
 }
 

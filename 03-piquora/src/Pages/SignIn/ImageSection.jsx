@@ -32,7 +32,7 @@ const ImageSection = () => {
     className=" lg:flex hidden
     relative overflow-hidden
     bg-[#1C1C1C] 
-     md:h-[986px] h-[840px] w-full rounded-2xl"
+    md:h-[986px] h-[840px] w-full rounded-2xl"
     
     >
       {/* Top-right radial glow */}
@@ -60,7 +60,7 @@ const ImageSection = () => {
                 <h3 className="font-bold text-xl">{tag.title}</h3>
                 <p className="text-sm text-white/70">{tag.subTitle}</p>
               </div>
-             </div>
+            </div>
             ))}
 
         </div>
