@@ -89,14 +89,14 @@ const Footer2 = () => {
     ]
   return (
     <div className='bg-[#023668] pb-5 px-6 lg:px-22.5 text-white space-y-5 relative'>
-        {/* Top-right radial glow */}
+        {/* Top-right radial glow
         <div
         className=" inset-0 
         pointer-events-none rotate-[28.64deg]
         absolute top-[225px] -left-5
         w-lg h-[114px]
         bg-[radial-gradient(circle_at_center,rgba(52,164,140,0.55)_-30%,transparent_70%)] backdrop-blur-[214px]"
-         />
+        /> */}
         <div className='flex relative z-10 flex-col gap-5 md:gap-0 items-center md:items-start lg:flex-row py-6 lg:py-20 border-b border-white justify-between '>
             <div className='flex flex-col gap-8 max-w-[388px]'>
                 <div className='flex items-center md:items-start flex-col gap-3'>

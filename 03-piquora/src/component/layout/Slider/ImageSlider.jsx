@@ -17,9 +17,9 @@ const ImageSlider = () => {
         }
     ]
     return (
-    <div className='flex flex-col gap-3  text-white'>
+    <div className='flex flex-col gap-3  text-white lg:w-2/5'>
         <div style={{ backgroundImage: `url(${Img})` }}
-            className='w-[398px] rounded-[10px] h-[536px] 
+            className='w-full rounded-[10px] h-[536px] 
             relative bg-no-repeat bg-cover bg-center
             flex flex-col justify-between py-5 px-5'>
             <button className='bg-[#FFFFFF33] border-[0.8px] border-solid 
@@ -58,14 +58,14 @@ const ImageSlider = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-between'>
-            <button className='flex items-center gap-2 py-3 px-4 rounded-[42px] bg-[#0000001A] text-[#1C1C1C] font-normal text-sm leading-[150%] tracking-[0.2px]'>
+        <div className='flex lg:justify-between justify-center gap-3 w-full '>
+            <button className='lg:flex hidden items-center w-2/4  gap-2 py-3 px-4 rounded-[42px] bg-[#0000001A] text-[#1C1C1C] font-normal text-sm leading-[150%] tracking-[0.2px]'>
                 <span className='text-[#858688]'>
                     <IoInformationCircleOutline size={16}/>
                 </span>
                 <h6>Qsync Meter</h6>
             </button>
-            <button className='flex items-center  gap-2 py-3 px-4 rounded-[42px] bg-[linear-gradient(91.84deg,#023668_4.69%,#00866A_95.31%)]  font-medium text-sm leading-[150%] tracking-[0.2px]'>
+            <button className=' w-full lg:w-4/5 flex items-center lg:justify-start justify-center gap-2 py-3 px-4 rounded-[42px] bg-[linear-gradient(91.84deg,#023668_4.69%,#00866A_95.31%)]  font-medium text-sm leading-[150%] tracking-[0.2px]'>
                 <span className='w-7 h-7 rounded-full inline-flex items-center justify-center bg-[#52C2AB]'>
                     <RiSendPlaneLine size={16} />  
                 </span>
