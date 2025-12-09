@@ -20,11 +20,11 @@ const PiquoraPicksBox = () => {
     return (
         <div className='flex flex-col gap-3 px-4 py-3 rounded-xl bg-[linear-gradient(91.84deg,#023668_4.69%,#00866A_95.31%)] border-2 border-[#ffffff4d] shadow-[0px_0px_8px_0px_#52C2ABE5]'>
             <div>
-                <h4 className='text-white font-bold text-xl tracking-[-0.01em] leading-[110%]'>Piquora Picks</h4>
+                <h4 className='text-white font-bold text-lg lg:text-xl tracking-[-0.01em] leading-[110%]'>Piquora Picks</h4>
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 place-content-between'>
                 {items.map((img, index) => (
-                    <img key={index} src={img} alt="" />
+                    <img className='justify-self-center' key={index} src={img} alt="" />
                 ))}
             </div>
         </div>

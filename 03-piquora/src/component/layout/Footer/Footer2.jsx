@@ -97,13 +97,13 @@ const Footer2 = () => {
         w-lg h-[114px]
         bg-[radial-gradient(circle_at_center,rgba(52,164,140,0.55)_-30%,transparent_70%)] backdrop-blur-[214px]"
         /> */}
-        <div className='flex relative z-10 flex-col gap-5 md:gap-0 items-center md:items-start lg:flex-row py-6 lg:py-20 border-b border-white justify-between '>
+        <div className='flex relative z-10 flex-col gap-5 md:gap-0 items-start lg:flex-row py-6 lg:py-20 border-b border-white justify-between '>
             <div className='flex flex-col gap-8 max-w-[388px]'>
-                <div className='flex items-center md:items-start flex-col gap-3'>
+                <div className='flex items-start flex-col gap-3'>
                     <img className='w-31.5' src={Logo} alt="" />
-                    <p className='text-[14px] text-center lg:text-start'>While we do not perform criminal background checks on our members or subscribers, your safety and security are our utmost priority. By using our services, you agree to read and adhere to Piquora dating safety guidelines.</p>
+                    <p className='text-[14px] '>While we do not perform criminal background checks on our members or subscribers, your safety and security are our utmost priority. By using our services, you agree to read and adhere to Piquora dating safety guidelines.</p>
                 </div>
-                <div className='flex justify-center  md:justify-start gap-2'>
+                <div className='flex justify-start gap-2'>
                     {icons.map((item, index) => (
                         <a className='p-3 border border-[#FFFFFF4D] bg-[#FFFFFF26] rounded-xl' key={index} href={item.link}>
                             {item.icon}  
@@ -111,7 +111,7 @@ const Footer2 = () => {
                     ))}
                 </div>
             </div>
-            <div className='grid grid-cols-2  lg:flex lg:flex-row gap-10 lg:gap-25'>
+            <div className='flex flex-col lg:flex-row gap-10 lg:gap-25'>
                 {
                 footerMenu.map((menu,index)=>(
                     <FooterMenu key={index} menu={menu} />

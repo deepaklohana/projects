@@ -106,9 +106,9 @@ const BioDataScrollBox = () => {
             <ImCancelCircle size={20}/>
           </button>
           <button className='text-white flex items-center justify-center w-12 h-12 rounded-full 
-               border-2 border-[#FFFFFF4D] 
-               bg-linear-to-r from-[#023668] to-[#00866A] 
-               shadow-[0px_0px_8px_0px_#52C2ABE5]'>
+            border-2 border-[#FFFFFF4D] 
+            bg-linear-to-r from-[#023668] to-[#00866A] 
+            shadow-[0px_0px_8px_0px_#52C2ABE5]'>
             <FaCheck size={20}/>
           </button>
         </div>
