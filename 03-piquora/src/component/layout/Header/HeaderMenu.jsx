@@ -22,7 +22,7 @@ const HeaderMenu = ({className}) => {
   return (
     <div className={`${className}`}>
       {menu.map((item,index)=>(
-        <a key={index} href={item.href}>{item.a}</a>
+        <a  key={index} href={item.href}>{item.a}</a>
       ))}
     </div>
   )

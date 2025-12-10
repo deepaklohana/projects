@@ -38,10 +38,9 @@ const Deshboard = () => {
         <div className='lg:pt-2.5 p-6 lg:px-25 container mx-auto lg:pb-50'>
           <Header2/>
           <div className='flex pt-5 gap-10 container mx-auto'>
-            <div className='lg:flex hidden flex-col gap-5 max-w-[230px]'>
+            <div className=''>
               <Sidebar/>
-              <PiquoraPicksBox/>
-              <AccountPrivacy/>
+              
             </div>
             <div className='w-full flex flex-col gap-5'>
               <Slider/>
